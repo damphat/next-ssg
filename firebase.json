@@ -1,6 +1,15 @@
 {
-    "hosting": {
-        "public": "out",
-        "cleanUrls": true
-    }
+  "hosting": {
+    "public": "out",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextjs"
+      }
+    ]
+  },
+  "functions": {
+    "source": "."
+  }
 }
