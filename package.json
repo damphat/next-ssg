@@ -16,6 +16,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "emulator": "firebase emulators:start"
+    "emulators": "firebase emulators:start"
   }
 }
